@@ -1,5 +1,5 @@
 require 'pry'
-=begin
+#=begin
 katz_deli = [ ]
 
 def line(katz_deli)
@@ -16,7 +16,7 @@ else
     puts "The line is currently: #{peeps}"
   end  
 end  
-=end
+#=end
 
 def take_a_number(katz_deli, new)
   num = [1..]
