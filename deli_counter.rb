@@ -27,7 +27,7 @@ def take_a_number(katz_deli, new)
     h = [katz_deli.zip(num)]
   binding.pry
   
-  h.each {|katz_deli, num| puts "Welcome, #{. You are number #{num} in line."}    
+  h.each {|katz_deli, num| puts "Welcome, #{h[value]}. You are number #{h[key]} in line."}    
   
   if katz_deli.empty?
     katz_deli.push(new)
