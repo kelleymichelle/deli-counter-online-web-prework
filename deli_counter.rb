@@ -30,6 +30,8 @@ def take_a_number(katz_deli, new)
   if katz_deli.empty?
     katz_deli.push(new)
       puts "Welcome, #{name}. You are number #{num} in line."
+  else 
+    puts "Welcome, #{name}. You are number #{num} in line."
   binding.pry
   end
   
