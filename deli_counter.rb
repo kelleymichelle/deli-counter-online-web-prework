@@ -23,7 +23,7 @@ def take_a_number(katz_deli, new)
   katz_deli << new
   h = { }
     h[value] = katz_deli
-    h[key] = 1..
+    h[key] = num
     h = [katz_deli.zip(num)]
   binding.pry
   
