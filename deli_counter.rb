@@ -9,12 +9,13 @@ def line(katz_deli)
   
   if katz_deli.empty? == true
     puts "The line is currently empty."
-else
+  else
     katz_deli.each do |name|
       number += 1
         peeps << "#{number}. #{name}"
-    puts "The line is currently: #{peeps}"
-  
+        puts "The line is currently: #{peeps}"
+    end
+  end
 end  
 
 
