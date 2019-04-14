@@ -23,7 +23,7 @@ def take_a_number(katz_deli, new)
   num = [1..]
   katz_deli << new
   h = { }
-    h[katz_deli.zip(num)]
+    h = [katz_deli.zip(num)]
   
   h.each {|katz_deli, num| puts "Welcome, #{katz_deli}. You are number #{num} in line."}    
   
