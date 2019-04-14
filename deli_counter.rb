@@ -26,7 +26,7 @@ def take_a_number(katz_deli, new)
   
   if katz_deli.empty?
   
-      puts "Welcome, #{name}. You are number #{num} in line."
+      puts "Welcome, #{new}. You are number #{num} in line."
   else 
     puts "Welcome, #{name}. You are number #{num} in line."
   
