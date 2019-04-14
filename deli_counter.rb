@@ -22,15 +22,10 @@ end
 def take_a_number(katz_deli, new)
   num = [1..]
   katz_deli << new
-  h = { }
-    h[value] = katz_deli
-    h[key] = num
-    h = [katz_deli.zip(num)]
   
-  h.each {|katz_deli, num| puts "Welcome, #{h[value]}. You are number #{h[key]} in line."}    
   
   if katz_deli.empty?
-    katz_deli.push(new)
+  
       puts "Welcome, #{name}. You are number #{num} in line."
   else 
     puts "Welcome, #{name}. You are number #{num} in line."
