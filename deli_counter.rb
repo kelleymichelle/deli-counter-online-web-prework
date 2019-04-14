@@ -14,7 +14,7 @@ def line(katz_deli)
       number += 1
         peeps << "#{number}. #{name}"
       end  
-    puts "The line is currently: #{peeps}"
+    puts "The line is currently: #{peeps.join(" ")}"
   end
 end  
 
