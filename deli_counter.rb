@@ -25,7 +25,6 @@ def take_a_number(katz_deli, new)
     h[value] = katz_deli
     h[key] = num
     h = [katz_deli.zip(num)]
-  binding.pry
   
   h.each {|katz_deli, num| puts "Welcome, #{h[value]}. You are number #{h[key]} in line."}    
   
