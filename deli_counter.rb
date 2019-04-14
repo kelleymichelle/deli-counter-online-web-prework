@@ -1,5 +1,4 @@
 
-require 'pry'
 =begin
 katz_deli = [ ]
 
@@ -24,7 +23,7 @@ def take_a_number(katz_deli, new)
   katz_deli << new
   h = { }
     h = [katz_deli.zip(num)]
-  binding.pry
+  
   h.each {|katz_deli, num| puts "Welcome, #{katz_deli}. You are number #{num} in line."}    
   
   if katz_deli.empty?
@@ -32,7 +31,7 @@ def take_a_number(katz_deli, new)
       puts "Welcome, #{name}. You are number #{num} in line."
   else 
     puts "Welcome, #{name}. You are number #{num} in line."
-  binding.pry
+  
   end
   
 end  
