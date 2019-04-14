@@ -14,7 +14,7 @@ else
       number += 1
         peeps << "#{number}. #{name}"
     puts "The line is currently: #{peeps}"
-  end  
+  
 end  
 #=end
 
