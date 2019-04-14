@@ -20,15 +20,15 @@ end
 
 
 def take_a_number(katz_deli, new)
-  num = [1..]
+  
   katz_deli << new
   
   
   if katz_deli.empty?
   
-      puts "Welcome, #{new}. You are number #{num} in line."
+      puts "Welcome, #{new}. You are number #{peeps.count} in line."
   else 
-    puts "Welcome, #{new}. You are number #{num} in line."
+    puts "Welcome, #{new}. You are number #{peeps.count} in line."
   
   end
   
