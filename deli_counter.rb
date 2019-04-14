@@ -13,8 +13,8 @@ def line(katz_deli)
     katz_deli.each do |name|
       number += 1
         peeps << "#{number}. #{name}"
-        puts "The line is currently: #{peeps}"
-    end
+      end  
+    puts "The line is currently: #{peeps}"
   end
 end  
 
